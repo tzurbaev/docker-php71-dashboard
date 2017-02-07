@@ -55,6 +55,6 @@ RUN curl -O -L https://phar.phpunit.de/phpunit.phar && \
     chmod a+x phpunit.phar && \
     mv phpunit.phar /usr/local/bin/phpunit
 
-RUN curl -O -L http://get.sensiolabs.org/php-cs-fixer.phar -O php-cs-fixer && \
-    chmod a+x php-cs-fixer && \
-    mv php-cs-fixer /usr/local/bin/php-cs-fixer
+RUN curl -O -L http://get.sensiolabs.org/php-cs-fixer.phar && \
+    chmod a+x php-cs-fixer.phar && \
+    mv php-cs-fixer.phar /usr/local/bin/php-cs-fixer
